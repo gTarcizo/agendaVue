@@ -1,33 +1,36 @@
-
 <template>
 <main>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-      <img  src="../../iconcontactdefault.png" alt="Imagem de Lista de Contatos" id="teste1" style="max-height: 50px"/>
+  <nav class="navbar navbar-dark bg-success navbar-expand-sm">
+    <div class="container">
+      <router-link to="/" class="navbar-brand">Vue Router</router-link>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <router-link to="/" class="nav-link px-4">Home</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/user" class="nav-link px-4">User</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/about" class="nav-link px-4">About</router-link>
+          </li>
+        </ul>
+      </div>
 
-    <div class="navbar-brand" > 
-      <router-link class="navbar-brand" style="margin: auto; margin-left: 40px; font-size: 2.5em;"> Agenda </router-link>
-    </div> 
-
-    <router-link to="/login" class="LoginButton btn btn-dark"> Sing IN / Login </router-link>
-    
-  </div>
-</nav>
-
-  <div class="container mt-3">
-    <Employee/>
-  </div>
+    </div>
+  </nav>
   
-<router-view> 
-</router-view>
-  </main>
+  
+  <router-view>
+  </router-view>
+</main>
 </template>
 
 <script>
-import Employee from './components/Employee.vue'
-import NavBar from './components/NavBar.vue'
+import UserList from './components/UserList.vue'
+import Spinner from './components/Spinner.vue'
   export default {
-    components: { Employee , NavBar }
+    components: { UserList , Spinner}
 }
 </script>
 
