@@ -1,4 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
 *{
   margin: 0px;
   padding: 0px;
+}
+.navbar-brand{
+  text-align: center;
+  font-family: 'Parisienne', cursive;
+}
+
+a{
+  text-decoration: none;
+}
+
+.LoginButton :hover{
+  border: 1px solid rgba(226, 221, 221, 0.774);
+  border-radius: 50%;
 }

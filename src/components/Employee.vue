@@ -2,7 +2,7 @@
     <div class="container mt-3">
         <div class="row">
             <div class="col">
-                <p class="h3">Employee</p>
+                <p class="h3">Lista</p>
                 <ul class="list-group mt-3">
                     <li class="list-group-item">
                        Name: {{this.employee.name}}

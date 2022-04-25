@@ -6,20 +6,11 @@
     </a>
 
     <a class="navbar-brand" href="h">
-      <h1 style="margin: auto; margin-left: 40px">Agenda</h1>
+      <h1 style="margin: auto; margin-left: 40px; font-size: 2.5em;">Agenda</h1>
     </a>
 
-    <button
-      class="LoginButton"
-      type="button"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <a
-        href=""
-        style="margin: 0; padding: 3px; justify-content: right"
-        >Sing IN / Login</a
-      >
+    <button class="LoginButton btn btn-dark " type="button" aria-expanded="false" aria-label="Toggle navigation">
+      <a href="" class="text-light h6" style="margin: 0; padding: 3px; justify-content: right;  text-decoration: none;"> Sing IN / Login </a>
     </button>
   </div>
 </nav>
@@ -29,6 +20,7 @@
 export default {
     name: 'NavBar'
 }
+
 </script>
 
 <style>
