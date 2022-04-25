@@ -4,15 +4,19 @@
             <div class="col">
                 <p class="h3">Lista</p>
                 <ul class="list-group mt-3">
+
                     <li class="list-group-item">
                        Name: {{this.employee.name}}
                     </li>
+
                     <li class="list-group-item">
                        Age: {{this.employee.age}}
                     </li>
+
                     <li class="list-group-item">
                        Designation: {{this.employee.designation}}
                     </li>
+                    
                 </ul>
             </div>
         </div>
