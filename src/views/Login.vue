@@ -1,6 +1,6 @@
 <template>
     <section>
-<div class="user">
+<div class="login">
 
   <div class="container mt-3">
     <div class="grid">
